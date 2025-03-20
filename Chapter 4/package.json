@@ -1,0 +1,27 @@
+{
+  "name": "live-user-directory",
+  "version": "1.0.0",
+  "description": "A live search user directory built with Express, HTMX, and Bootstrap.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "htmx",
+    "bootstrap",
+    "live search",
+    "user directory"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
